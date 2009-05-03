@@ -1,3 +1,0 @@
-education template 
-* grade
-* schedule
