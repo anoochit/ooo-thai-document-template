@@ -9,7 +9,7 @@
     </dependencies>
 
     <update-information>
-      <src xlink:href="http://www.thaiopensource.org/pub/OpenOffice.org/extension/extensions.xml" />
+      <src xlink:href="http://www.thaiopensource.org/pub/OpenOffice.org/extension/ooo-thai-document-template-update.xml" />
     </update-information>
 
     <registration>

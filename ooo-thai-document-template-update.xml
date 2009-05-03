@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/update/2006"
+             xmlns:xlink="http://www.w3.org/1999/xlink">
+    <identifier value="org.thaiopensource.templates.th-TH.unified.oxt"/>
+    <version value="1.0" />    
+    <update-download>
+        <src xlink:href="http://www.thaiopensource.org/pub/OpenOffice.org/extension/org.thaiopensource.templates.th-TH-1.0.oxt" />
+    </update-download>
+</description>
