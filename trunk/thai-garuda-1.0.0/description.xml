@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/description/2006"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<!-- modify version value if appropirate -->
+	<version value="1.0" />
+
+<!-- if license should be shown up at installation, add folder resources/ and include the license text there as license_en.txt -->
+	<registration>
+		<simple-license  accept-by="user" default-license-id="en" suppress-on-update="true">
+			<license-text xlink:href="resources/license_en.txt" lang="en" license-id="en" />
+		</simple-license>
+	</registration>
+
+
+<!-- replace YOUR EXTENSION NAME by the right name of your extension -->
+	<display-name>
+		<name lang="en">Thai Garuda</name>
+	</display-name>
+
+<!-- content of the description file (in description folder) is shown in the extension manager.
+	remember to modify it depending on your extension -->
+	<extension-description>
+	    <src xlink:href="description/description_en.txt" lang="en" />
+        </extension-description>
+
+<!--  if you want an icon (48x48px) to show up at the extension manager, add its name here, if not include this part in the comment -->
+	<icon>
+		<default xlink:href="icon.png" />
+	</icon>
+	<update-information>
+        <src xlink:href="http://www.redlinesoft.net/ooo/extensiones/thaigaruda.xml"/>
+    </update-information>
+</description>
