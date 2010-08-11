@@ -1,0 +1,5 @@
+OpenOffice.org Extension
+
+This Extension contains parts of Idea Connect Project. This project creates and collects Thai document templates, galleries and other useful extras for OpenOffice.org and release them as easy-to-install Extension packages. 
+
+

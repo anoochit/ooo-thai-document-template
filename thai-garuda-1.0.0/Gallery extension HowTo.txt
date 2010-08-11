@@ -1,0 +1,59 @@
+HOW TO CREATE AN EXTENSION THAT INCLUDES A NEW CLIPART GALLERY THEME
+
+1.) Build a new theme in your OOo Gallery (displayed via 
+    "Tools" - "Gallery") and name it appropriately.
+
+2.)Add the clipart you want to include in this theme from a Draw 
+    document (click on an image for more than 2 seconds, then drag and 
+    drop it to the gallery area). 
+    Adding clipart from your file system to the second tab of the 
+    gallery theme's properities will create links instead of embedding
+    the files, drag&drop from Writer will link to your local 
+    /user/gallery/dragdrop folder.
+    If you want to, you may sort them afterwards.
+
+3.) Copy the newly created gallery files (sg<nr>.sdg, sg<nr>.sdv,
+    sg<nr>.thm) from your application's gallery folder 
+    (...openoffice.org/3/user/gallery/) to the gallery/ folder of this 
+    extension (extracting it beforehand might be a good idea...).
+
+4.) Edit the description.xml file and adapt it to your needs:
+    - version (mandatory)
+    - identifier (mandatory for updates - if you don't add it, it will 
+      be added by the extension manager)
+    - extension name (mandatory)
+    - icon (optional): Shows up in the extension manager
+    - license (optional): If you want the user/admin to accept the 
+      license, uncomment the paragraph <registration> and put the 
+      license text in resources/ (file name: license_en.txt).
+      Otherwise it would be sufficient to include the license in the 
+      extension.
+      (If you want to use PDL, edit license_PDL.txt and adapt 
+         - TITLE OF THE EXTENSION
+         - PRENAME NAME
+         - YEAR
+         - EMAIL@ADDRESS
+      If not, remove this file, use license_LGPL.txt or add the license
+      of your choice - multiple licenses are possible too)
+
+5.) Edit the description file in description/description_en.txt
+    This text shows up in the extension manager.
+    If you don't want to add a description, remove/comment the paragraph
+    <extension-description> in description.xls.
+
+6.) Compress the extension again (to .zip) and rename it to .oxt.
+
+7.) Test your new extension in a version of OpenOffice.org that doesn't 
+    contain the gallery theme. You might close the application 
+    (including the Quickstarter, if active) to update the gallery.
+
+8.) If the extension works as supposed, feel free to share it with 
+    others: 
+    - Upload it to http://extensions.openoffice.org.
+    - Create an overview image of the extension's content.
+    - Add a link to the extension and a thumbnail of your overview to
+      http://wiki.services.openoffice.org/Art/Gallery/Clipart
+
+
+
+      

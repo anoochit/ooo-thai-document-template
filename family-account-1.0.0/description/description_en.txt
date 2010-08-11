@@ -1,0 +1,5 @@
+OpenOffice.org Extension
+
+This Extension contains parts of Idea Connect Project. This project collects family accounting templates for OpenOffice.org and release them as easy-to-install Extension packages. 
+
+

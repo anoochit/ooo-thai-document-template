@@ -1,0 +1,10 @@
+Public Documentation License Notice 
+
+	The contents of this Extension are subject to the Public Documentation License Version 1.0 (the "License"); you may only use this Documentation if you comply with the terms of this License. A copy of the License is available at http://www.openoffice.org/licenses/PDL.html.
+
+	The Original Extension is TITLE OF THE EXTENSION. The Initial Writer of the Original Documentation is PRENAME NAME Copyright © YEAR. All Rights Reserved. (Initial Writer contact(s): EMAIL@ADDRESS).
+
+	Contributor(s): ______________________________________. 
+Portions created by ______ are Copyright ©_________[Insert year(s)]. All Rights Reserved.   (Contributor contact(s):________________[Insert hyperlink/alias]).
+
+	NOTE: The text of this Appendix may differ slightly from the text of the notices in the files of the Original Documentation. You should use the text of this Appendix rather than the text found in the Original Documentation for Your Modifications.
