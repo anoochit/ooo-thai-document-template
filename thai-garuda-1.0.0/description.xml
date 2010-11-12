@@ -3,14 +3,14 @@
 	xmlns:xlink="http://www.w3.org/1999/xlink">
 
 <!-- modify version value if appropirate -->
-	<version value="1.0" />
+	<version value="2.0" />
 
 <!-- if license should be shown up at installation, add folder resources/ and include the license text there as license_en.txt -->
-	<registration>
+	<!--<registration>
 		<simple-license  accept-by="user" default-license-id="en" suppress-on-update="true">
 			<license-text xlink:href="resources/license_en.txt" lang="en" license-id="en" />
 		</simple-license>
-	</registration>
+	</registration>-->
 
 
 <!-- replace YOUR EXTENSION NAME by the right name of your extension -->
@@ -29,6 +29,6 @@
 		<default xlink:href="icon.png" />
 	</icon>
 	<update-information>
-        <src xlink:href="http://www.redlinesoft.net/ooo/extensiones/thaigaruda.xml"/>
+        <src xlink:href="http://thaiopensource.org/files/thaigaruda.xml"/>
     </update-information>
 </description>
