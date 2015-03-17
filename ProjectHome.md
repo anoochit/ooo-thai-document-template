@@ -1,0 +1,1 @@
+Thai document templates for OpenOffice.Org suit. It include template for business, personal, education use.
